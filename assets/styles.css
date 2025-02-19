@@ -1,0 +1,75 @@
+:root { 
+    --primary-color: #f9faf8;
+    --secondary-color: #e5e7eb;
+    --bg-dark: #1f2937;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: Roboto, 'sans-serif';
+} 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    color: var(--primary-color);
+    background-color: var(--bg-dark);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 200px;
+    color: var(--primary-color);
+    background-color: var(--bg-dark);
+}
+
+.hero .left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.hero .left p {
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin-bottom: 4px;
+}
+
+button {
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero button {
+    background-color: royalblue;
+    color: var(--secondary-color);
+    font-size: 18px;
+    border: none;
+}
